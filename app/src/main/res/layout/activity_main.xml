@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <!-- style="@style/Theme.AppCompat.DayNight.NoActionBar"-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@android:color/holo_blue_dark"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <RelativeLayout
+
+            android:layout_width="395dp"
+            android:layout_height="715dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <EditText
+                android:id="@+id/emailAdressField"
+                style="@style/AlertDialog.AppCompat.Light"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="344dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/circlelock"
+                android:drawableLeft="@mipmap/ic_email"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:shadowColor="@android:color/black"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/background_dark" />
+
+            <EditText
+                android:id="@+id/passwordField"
+                style="@style/AlertDialog.AppCompat.Light"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="422dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                android:background="@drawable/circlelock"
+                android:drawableLeft="@mipmap/ic_password"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:shadowColor="@android:color/black"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="507dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/roundedbutton"
+                android:shadowColor="@android:color/black"
+                android:text="Login"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="378dp"
+                android:layout_height="140dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:background="@android:color/black"
+                android:fontFamily="@font/arbutus"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="253dp"
+                android:layout_height="176dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="151dp"
+                android:layout_marginEnd="72dp"
+                android:layout_marginRight="72dp"
+                app:srcCompat="@drawable/imagelion" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="115dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="142dp"
+                android:layout_marginRight="142dp"
+                android:src="@mipmap/ic_headerlock" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

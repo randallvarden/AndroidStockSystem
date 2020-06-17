@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StockSystem</string>
+    <string name="Open">StockSystem</string>
+    <string name="Close">StockSystem</string>
+</resources>

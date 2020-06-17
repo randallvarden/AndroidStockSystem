@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@android:color/holo_blue_dark"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="396dp"
+            android:layout_height="519dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="365dp"
+                android:layout_height="157dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/roundedpicture"
+                android:elevation="70dp"
+                app:srcCompat="@drawable/imagelion"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/blackbackground"
+                android:layout_width="371dp"
+                android:layout_height="166dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/roundedbutton" />
+
+            <TextView
+                android:id="@+id/productIDLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="199dp"
+                android:layout_marginEnd="283dp"
+                android:layout_marginRight="283dp"
+                android:text="Product ID:"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" /> />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="447dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginRight="22dp"
+                android:background="@drawable/roundedbutton"
+                android:text="DELETE"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="199dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp" />
+
+            <TextView
+                android:id="@+id/textViewProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="239dp"
+                android:layout_marginEnd="248dp"
+                android:layout_marginRight="248dp"
+                android:text="Product Name:"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="241dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

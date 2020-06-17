@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_play_arrow">
+
+    </item>
+    <item
+        android:id="@+id/iviewStock"
+        android:title="View Stock"
+        android:icon="@drawable/ic_play_arrow">
+
+    </item>
+    <item
+        android:id="@+id/addStock"
+        android:title="Add New Stock"
+        android:icon="@drawable/ic_play_arrow">
+
+    </item>
+    <item
+        android:id="@+id/deleteStock"
+        android:title="Delete Stock"
+        android:icon="@drawable/ic_play_arrow">
+
+    </item>
+    <item
+        android:id="@+id/updateStock"
+        android:title="Update Stock"
+        android:icon="@drawable/ic_play_arrow">
+
+    </item>
+    <item
+        android:id="@+id/manageUser"
+        android:title="Manage Users"
+        android:icon="@drawable/ic_play_arrow">
+
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_play_arrow">
+
+    </item>
+</menu>
